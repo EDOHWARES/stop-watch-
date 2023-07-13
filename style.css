@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(201, 196, 196);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.859),black), url(/images/flower-5201_512.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.stopwatch {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    width: 70%;
+    max-width: 20rem;
+}
+
+.stopwatch h1 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.533);
+}
+
+.stopwatch .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.stopwatch img {
+    width: 3rem;
+    cursor: pointer;
+}
+
+
